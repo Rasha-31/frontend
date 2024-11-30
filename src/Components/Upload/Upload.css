@@ -1,0 +1,49 @@
+.summarize-form {
+  /* Styles for the form container */
+  margin-top: 0; /* Adjust margin as needed */
+  width: 100%;
+  min-height: 100vh;
+  min-width: 100%;
+  background: #fff;
+  background-size: cover; /* Ensure the image covers the entire section */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.input-button {
+  /* Styles for the input buttons */
+  background-color: #f0f0f0;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.url-input {
+  /* Styles for the input field */
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.summarize-button {
+  /* Styles for the Summarize Now button */align-items: center;
+  width: 100%;
+  background-color: rgb(92, 64, 33);
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,41 @@
+nav{
+    width: 100%;
+    /* background: rgb(61, 28, 2); */
+    color: #fff;
+    padding: 1px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10;
+}
+
+.web-name{
+    margin: -110px;
+    padding-bottom: 5px;
+    font-family: "Outfit", sans-serif;
+  }
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 5px 20px;
+    margin-top: 20px; /* Remove default margin */
+    font-size: 16px;
+}
+
+nav ul li:hover {
+    color: #241100; /* Change the text color on hover */
+    cursor: pointer;
+}
+
+.logo{
+    width: 70px;
+}
+
+.dark-nav{
+    background: rgba(76, 33, 1, 0.938);
+    transition: 0.5s;
+}
